@@ -1,15 +1,15 @@
 # IoT Threat Classification with Ensemble Machine Learning Models
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![GitHub Stars](https://img.shields.io/github/stars/jorgesandoval/sp500-forecasting-xgboost.svg)
-![GitHub Downloads](https://img.shields.io/github/downloads/jorgesandoval/sp500-forecasting-xgboost/total.svg)
-![GitHub Forks](https://img.shields.io/github/forks/jorgesandoval/sp500-forecasting-xgboost.svg)
+![GitHub Stars](https://img.shields.io/github/stars/jorgesandoval/iotthreat-classification-ensemble.svg)
+![GitHub Downloads](https://img.shields.io/github/downloads/jorgesandoval/iotthreat-classification-ensemble/total.svg)
+![GitHub Forks](https://img.shields.io/github/forks/jorgesandoval/iotthreat-classification-ensemble.svg)
 
 
-![Alt text](images/SP500Forecasting.png)
-This repository houses a Jupyter notebook showcasing the XGBoost for forecasting the S&P 500 index using time-series data.
+![Alt text](images/IoTThreat.png)
+This repository houses a Jupyter notebook for IoT threat detection using ensemble machine learning.
 
-
+![Alt text](image.png)
 
 ## 📖 Table of Contents
 - [IoT Threat Classification with Ensemble Machine Learning Models](#iot-threat-classification-with-ensemble-machine-learning-models)
@@ -64,15 +64,16 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 3. **Run the notebook**: Execute the notebook cells sequentially to preprocess the data, train the XGBoost model, and evaluate its performance.
 ## 📈 Key Findings
 
-* Ensemble Model: Achieved an accuracy of approximately 88.43%, with a precision score slightly higher than its accuracy, indicating that the model's predictions are quite reliable.
-* K-Nearest Neighbors (KNN): Exhibited nearly equivalent accuracy to the ensemble model, with notably higher precision, suggesting a high percentage of correct positive predictions.
-* Neural Network: Ranked third in accuracy, but with a lower precision compared to its accuracy, indicating potential over-prediction in certain classes.
-* Gradient Boosting: Showcased the highest precision among the top models, although with slightly lower accuracy than the Neural Network, suggesting very reliable positive predictions.
-* Random Forest & Extra Trees: Both models demonstrated almost identical accuracy and precision scores, performing well in accuracy but with room for improvement in precision.
-* Decision Tree: Performed on par with the Random Forest and Extra Trees models, as expected due to the nature of Random Forests being ensembles of Decision Trees.
-* Logistic Regression & SVM: These models had similar accuracy scores but lower precision than the top-performing models, indicating a higher number of false positive predictions.
-* Gaussian Naive Bayes: Despite ranking last in accuracy, it had a high precision score, nearly matching that of the Gradient Boosting model, suggesting that its positive predictions are highly reliable.
-* The ensemble approach demonstrated the benefit of combining multiple models to improve prediction reliability and accuracy, outperforming individual models in overall metrics.
+* **Ensemble Model**: Achieved an accuracy of approximately 88.43%, with a precision score slightly higher than its accuracy, indicating that the model's predictions are quite reliable.
+* **K-Nearest Neighbors (KNN)**: Exhibited nearly equivalent accuracy to the ensemble model, with notably higher precision, suggesting a high percentage of correct positive predictions.
+* **Neural Network**: Ranked third in accuracy, but with a lower precision compared to its accuracy, indicating potential over-prediction in certain classes.
+* **Gradient Boosting**: Showcased the highest precision among the top models, although with slightly lower accuracy than the Neural Network, suggesting very reliable positive predictions.
+* **Random Forest & Extra Trees**: Both models demonstrated almost identical accuracy and precision scores, performing well in accuracy but with room for improvement in precision.
+* **Decision Tree**: Performed on par with the Random Forest and Extra Trees models, as expected due to the nature of Random Forests being ensembles of Decision Trees.
+* **Logistic Regression & SVM**: These models had similar accuracy scores but lower precision than the top-performing models, indicating a higher number of false positive predictions.
+* **Gaussian Naive Bayes**: Despite ranking last in accuracy, it had a high precision score, nearly matching that of the Gradient Boosting model, suggesting that its positive predictions are highly reliable.
+
+The ensemble approach demonstrated the benefit of combining multiple models to improve prediction reliability and accuracy, outperforming individual models in overall metrics.
 
 ## 💡 Contributions
 
