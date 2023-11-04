@@ -9,8 +9,6 @@
 ![Alt text](images/IoTThreat.png)
 This repository houses a Jupyter notebook for IoT threat detection using ensemble machine learning.
 
-![Alt text](image.png)
-
 ## 📖 Table of Contents
 - [IoT Threat Classification with Ensemble Machine Learning Models](#iot-threat-classification-with-ensemble-machine-learning-models)
   - [📖 Table of Contents](#-table-of-contents)
